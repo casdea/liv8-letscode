@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     let sec = 180;
 
     const countDiv = document.getElementById("timer");
- 
+  
     const secpass = () => {
 
         let min = Math.floor(sec / 60);
