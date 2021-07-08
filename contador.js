@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
 
         if (min < 10) {
             min = "0" + min;
-        }
+        } 
 
         //vai gerar o formato de mm:ss
         countDiv.innerHTML = min + ":" + segundosRestantes;
